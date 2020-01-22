@@ -9,3 +9,4 @@ PyJWT==1.7.1
 python-decouple==3.3
 pytz==2019.2
 sqlparse==0.3.0
+whitenoise==5.0.1
