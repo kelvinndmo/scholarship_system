@@ -158,7 +158,7 @@ SERVER_EMAIL = EMAIL_HOST_USER
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=dj_database_url.config('DATABASE_URL')
+        default=dj_database_url.config(os.environ.get('DATABASE_URL'))
     )
 }
 
