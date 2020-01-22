@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 import dj_database_url
+import django_heroku
 
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE",
