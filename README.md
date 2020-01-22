@@ -95,15 +95,6 @@ $ python manage.py runserver
 -  is_approved:boolean
 ```
 
-### Testing
-
-### Testing
-
-    nosetests
-
-    - Testing with coverage
-
-    nosetests --with-coverage --cover-package=app
 
 ### Author
 
