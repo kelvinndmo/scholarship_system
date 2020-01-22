@@ -156,17 +156,9 @@ SERVER_EMAIL = EMAIL_HOST_USER
 '''END EMAIL CONFIGURATION'''
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.environ.get('DB_NAME', 'postgres'),
-        'USER': os.environ.get('DB_USER', 'postgres'),
-        'PASSWORD': os.environ.get('DB_PASSWORD', 'password'),
-        'HOST': os.environ.get('DB_HOST', 'localhost'),
-        'PORT': os.environ.get('DB_PORT', '5432'),
-        'TEST': {
-            'NAME': 'test_landville'
-        }
-    },
+    'default': dj_database_url.config(
+        default=dj_database_url.config('DATABASE_URL')
+    )
 }
 
 
