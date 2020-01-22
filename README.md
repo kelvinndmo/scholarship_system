@@ -16,7 +16,7 @@
 - [Virtual Environment](https://virtualenv.pypa.io/en/stable/installation/)
 - [Django](https://www.djangoproject.com/)
 - [Django-Rest Framework](https://www.django-rest-framework.org/)
-- [Heroku](https://dashboard.heroku.com/)
+- [Linode](https://cloud.linode.com/)
 
 ## Technologies & Languages
 
